@@ -1,15 +1,19 @@
 {
 	"name": "AmoCyoden",
 	"colors": {
+		"activityBar.activeBorder": "#00FFFF",
 		"activityBar.background": "#000",
 		"activityBar.border": "#0c0c0c",
+		"activityBar.foreground": "#00FFFF",
 		"activityBarBadge.background": "#00FFFF",
 		"activityBarBadge.foreground": "#000",
 		"editor.background": "#000",
 		"editorGroupHeader.tabsBackground": "#000",
-		"editorIndentGuide.background1": "#00ffffa6",
+		"editorIndentGuide.background1": "#0c0c0c",
+		"editorIndentGuide.activeBackground1": "#00ffffa6",
 		"editorWidget.background": "#080808",
 		"foreground": "#bebebe",
+		"icon.foreground": "#00FFFF",
 		"menu.background": "#080808",
 		"sideBar.background": "#000",
 		"sideBar.border": "#0c0c0c",
@@ -25,21 +29,14 @@
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#00ffff4d"
 			}
 		},
 		{
 			"name": "Variables",
 			"scope": ["variable", "string constant.other.placeholder"],
 			"settings": {
-				"foreground": "#EEFFFF"
-			}
-		},
-		{
-			"name": "Colors",
-			"scope": ["constant.other.color"],
-			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#bebebe"
 			}
 		},
 		{
@@ -53,7 +50,7 @@
 			"name": "Keyword, Storage",
 			"scope": ["keyword", "storage.type", "storage.modifier"],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#00FFFF"
 			}
 		},
 		{
@@ -73,7 +70,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#00FFFF"
 			}
 		},
 		{
@@ -97,7 +94,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#00ffffa6"
 			}
 		},
 		{
