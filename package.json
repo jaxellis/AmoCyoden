@@ -15,6 +15,9 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "package": "vsce package -o ./dist/"
+  },
   "contributes": {
     "themes": [
       {
