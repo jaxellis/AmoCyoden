@@ -1,0 +1,18 @@
+:root {
+	/* AMOLED Blacks */
+	--background: #000;
+	--foreground: #080808;
+	--foreground-lighter: #0c0c0c;
+
+	/* Borders */
+	--background-border: var(--foreground-lighter);
+	--foreground-border: var(--cyan);
+
+	/* Cyoden Accents */
+	--cyan: #00ffff;
+	--cyan-trans: #00ffffa6;
+
+	/* Text */
+	--text: #bebebe;
+	--titles: var(--cyan);
+}

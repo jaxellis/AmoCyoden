@@ -1,0 +1,27 @@
+{
+  "name": "amocyoden",
+  "displayName": "AmoCyoden",
+  "description": "An amoled and cyan theme",
+  "version": "0.0.1",
+  "author": "John Ellis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaxellis/AmoCyoden.git"
+  },
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "AmoCyoden",
+        "uiTheme": "vs-dark",
+        "path": "./themes/AmoCyoden-color-theme.json"
+      }
+    ]
+  }
+}
