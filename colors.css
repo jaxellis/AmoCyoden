@@ -10,9 +10,11 @@
 
 	/* Cyoden Accents */
 	--cyan: #00ffff;
-	--cyan-trans: #00ffffa6;
+	--cyan-trans-65: #00ffffa6;
+	--cyan-trans-30: #00ffff4d;
 
 	/* Text */
 	--text: #bebebe;
 	--titles: var(--cyan);
+	--comment: var(--cyan-trans);
 }
