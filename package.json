@@ -16,7 +16,8 @@
     "Themes"
   ],
   "scripts": {
-    "package": "vsce package -o ./dist/"
+    "package": "vsce package -o ./dist/",
+    "install": "npm run package && node scripts/install-theme.js"
   },
   "contributes": {
     "themes": [
