@@ -15,6 +15,7 @@
 
 	/* Text */
 	--text: #bebebe;
+	--dark-text: #8c8c8c;
 	--titles: var(--cyan);
 	--comment: var(--cyan-trans);
 }
